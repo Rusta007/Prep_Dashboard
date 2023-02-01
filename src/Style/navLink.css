@@ -1,0 +1,36 @@
+.navlink {
+    font-family: "Poppins", sans-serif;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 115%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: -13%;
+    top: -8px;
+    gap: 10px;
+  }
+  
+  select {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .navlink > span {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-hover:hover {
+    color: rgb(29, 29, 214);
+  }

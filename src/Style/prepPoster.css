@@ -1,0 +1,147 @@
+
+.bannerImages{
+    width: 32em;
+}
+.aboutprep {
+    position: relative;
+    left: 3em;
+    width: 88%;
+    top: 5em;
+    
+}
+.poster-main{
+    display: flex;
+    background-color:#EEFAFF ;
+}
+.our-vision {
+    position: relative;
+    top: -2em;
+    font-style: normal;
+    font-size: 2.5em;
+    letter-spacing: 0px;
+    color: #4b8ce8;
+    opacity: 1;
+}
+.paragraph {
+    opacity: 0.5;
+    color: #707070;
+    font-style: normal;
+    font-size: 18px;
+    position: relative;
+    top: -3em;
+}
+.poster-main {
+    position: relative;
+    top: 5em;
+    width: 100%;
+    height: 8.5em;
+    opacity: 1;
+    z-index: 1;
+    left: -10em;
+    box-shadow: 0px 0px 15px #66656529;
+    border-radius: 23px;
+}
+.image-poster {
+    width: 60px;
+    height: 60px;
+}
+.college-blog{
+    padding:2em 18px;
+ opacity: 0.2px;
+    display:flex;
+     margin:0em 0em 0em 0em;
+}
+.banner-port{
+    justify-content:space-between;
+    display:flex;
+}
+.circle-image {
+    position: relative;
+    left: 76em;
+    width: 11em;
+    top: -17em;
+    margin-bottom: -20em;
+}
+.back-image{
+    margin-top: -22em;
+}
+@media only screen and (max-width: 750px) {
+    .banner-port{
+        display: block;
+    }
+    .bannerImages {
+        position: relative;
+        left: 2.5em;
+        top: 29em;
+        width: 21em;
+        z-index: 3;
+    }
+    .aboutprep {
+        position: relative;
+        left: 2em;
+        width: 88%;
+        top: -20em;
+    }
+    .poster-main {
+        z-index: 0;
+        position: relative;
+        top: -10em;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+        width: 100%;
+        height:42.5em;
+        opacity: 1;
+        z-index: 1;
+        left: 0em;
+        box-shadow: 0px 0px 15px #66656529;
+        border-radius: 23px;
+    }
+    .college-blog{
+        border: 2px solid black;
+        /* width: 100%; */
+        padding:0em 2em 0em 2em;
+        position: relative;
+        left: 0;
+        height: 14em;
+        border-radius: 10px;
+        position: relative;
+        top: 10em;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .college-blog3{
+        top: 26em;
+        left:-25em;
+    }
+    .name-blog{
+      display: block;
+    }
+   
+}
+@media only screen and (min-width: 750px) and (max-width:1000px){
+.poster-main {
+    position: relative;
+    top: 6em;
+    width: 100%;
+    height: 8.5em;
+    opacity: 1;
+    z-index: 1;
+    left: -30em;
+    box-shadow: 0px 0px 15px #66656529;
+    border-radius: 23px;
+    margin-bottom: 101px;
+}
+
+.aboutprep {
+    position: relative;
+    left: 3em;
+    width: 88%;
+    top: -28em;
+}
+
+
+}
