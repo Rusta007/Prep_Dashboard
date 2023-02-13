@@ -1,5 +1,4 @@
 import React from 'react'
-// import './All2.css'
 const Sbox = (props) => {
   return (
    <>
