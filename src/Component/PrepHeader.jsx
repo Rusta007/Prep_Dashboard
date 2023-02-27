@@ -51,7 +51,7 @@ const Navbar = () => {
           <img
             src="../images/Banner.jpg"
             alt=""
-            width={"830px"}
+            width={"937px"}
             height={"415px"}
           />
         </div>
